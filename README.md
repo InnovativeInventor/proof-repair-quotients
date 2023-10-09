@@ -1,6 +1,6 @@
 ## Towards Proof Repair in Cubical Agda
 
-This repo contains the artifact for "Towards Proof Repair in Cubical Agda" by Cosmo Viola, Max Fan, and Talia Ringer. The paper is currently under submission.
+This repo contains the artifact for "Towards Proof Repair in Cubical Agda" by Cosmo Viola, Max Fan, and Talia Ringer. The paper is currently under submission ([draft](https://dependenttyp.es/pdf/quotient.pdf)).
 
 The files that were submitted along with the paper can be found in [/cubical/submission](/cubical/submission). 
 Other work that was not submitted can be found in [/cubical](/cubical).
