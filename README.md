@@ -1,6 +1,6 @@
 ## Proof Repair across Quotient Type Equivalences
 
-This repo contains the artifact for "Towards Proof Repair in Cubical Agda" by Cosmo Viola, Max Fan, and Talia Ringer. The paper is currently under submission ([preprint](https://arxiv.org/abs/2310.06959)). This repo contains the artifacts as-submitted.
+This repo contains the artifact for "Proof Repair across Quotient Type Equivalences" by Cosmo Viola, Max Fan, and Talia Ringer. The paper is currently under submission ([preprint](https://arxiv.org/abs/2310.06959)). This repo contains the artifacts as-submitted.
 
 There are two parts to this artifact:
 
@@ -8,7 +8,7 @@ There are two parts to this artifact:
 - An external view of proof repair across quotient type equivalences (via setoids) in Coq (located in `/pumpkin-pi`). This is automated by a prototype that extends the original pumpkin-pi automation.
 
 ## Manual Case Studies in Cubical Agda
-To run our Cubical Agda case studies, you should install [Cubical Agda](https://github.com/agda/cubical)
+To run our Cubical Agda case studies, you should install [Cubical Agda](https://github.com/agda/cubical).
 The main corresponding files for our case studies in Cubical Agda can be found in the following locations:
 
 - [`cubical/grothendieck_int_equiv.agda`](cubical/grothendieck_int_equivalence.agda) (for the integer case study in Cubical Agda)
