@@ -1,0 +1,4 @@
+[submodule "pumpkin-pi"]
+	path = pumpkin-pi
+	url = https://github.com/uwplse/pumpkin-pi.git
+	branch = two-list-queue
