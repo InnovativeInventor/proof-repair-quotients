@@ -7,7 +7,7 @@ There are two parts to this artifact:
 - An internal view of proof across quotient type equivalences in Cubical Agda (located in [`cubical`](cubical)). This is currently manual due to engineering and theoretical limitations of cubical type theory.
 - An external view of proof repair across quotient type equivalences (via setoids) in Coq (located in `/pumpkin-pi`). This is automated by a prototype that extends the original pumpkin-pi automation.
 
-## Cubical Agda Manual Case Studies
+## Manual Case Studies in Cubical Agda
 To run our Cubical Agda case studies, you should install [Cubical Agda](https://github.com/agda/cubical)
 The main corresponding files for our case studies in Cubical Agda can be found in the following locations:
 
@@ -15,7 +15,7 @@ The main corresponding files for our case studies in Cubical Agda can be found i
 - [`cubical/equivalence_queue.agda`](cubical/two_list_queue_equivalence.agda) (for the queue case study in Cubical Agda)
 
 
-## Quotient Types Extension to Pumpkin Pi
+## Automated Case Studies in Coq (extending Pumpkin Pi with quotient types/setoids)
 To fetch and build everything, make sure you have Coq 8.9.1 installed (later versions are not currently supported).
 
 Then, to build everything, run:
