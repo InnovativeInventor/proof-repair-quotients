@@ -4,8 +4,8 @@ This repo contains the artifact for "Towards Proof Repair in Cubical Agda" by Co
 
 There are two parts to this artifact:
 
-- An internal view of proof across quotient type equivalences in Cubical Agda (located in [cubical](cubical)). This is currently manual due to engineering and theoretical limitations of cubical type theory.
-- An external view of proof repair across quotient type equivalences (via setoids) in Coq (located in [/pumpkin-pi](/pumpkin-pi)). This is automated by a prototype that extends the original pumpkin-pi automation.
+- An internal view of proof across quotient type equivalences in Cubical Agda (located in [`cubical`](cubical)). This is currently manual due to engineering and theoretical limitations of cubical type theory.
+- An external view of proof repair across quotient type equivalences (via setoids) in Coq (located in `/pumpkin-pi`). This is automated by a prototype that extends the original pumpkin-pi automation.
 
 ## Cubical Agda Manual Case Studies
 To run our Cubical Agda case studies, you should install [Cubical Agda](https://github.com/agda/cubical)
@@ -29,9 +29,9 @@ To run the relevant case studies files, run:
 ./setoids.sh
 ```
 
-which will first run the setoid repair tests contained within [`pumpkin-pi/plugin/coq/ToSetoidTest.v`](pumpkin-pi/plugin/coq/ToSetoidTest.v),then build the following two case studies:
-- [`pumpkin-pi/plugin/coq/playground/grothendieck_int_equivalence_repair_tool.v`](pumpkin-pi/plugin/coq/playground/grothendieck_int_equivalence_repair_tool.v) (for the integer case study in Coq)
-- [`pumpkin-pi/plugin/coq/playground/TwoListQueue/two_list_queue_equivalence_repair_tool.v`](pumpkin-pi/plugin/coq/playground/TwoListQueue/two_list_queue_equivalence_repair_tool.v) (for the queue case study in Coq)
+which will first run the setoid repair tests contained within `pumpkin-pi/plugin/coq/ToSetoidTest.v`,then build the following two case studies:
+- `pumpkin-pi/plugin/coq/playground/grothendieck_int_equivalence_repair_tool.v` (for the integer case study in Coq)
+- `pumpkin-pi/plugin/coq/playground/TwoListQueue/two_list_queue_equivalence_repair_tool.v` (for the queue case study in Coq)
 
 The script will also build `UIPList.v`, as a dependency of the queue case study. 
 In our queue case study, we parameterize over lists/queues of type A, where UIP holds on A. `UIPList.v` proves that if UIP holds on A, it will hold on list A. 
