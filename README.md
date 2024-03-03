@@ -29,7 +29,7 @@ To run the relevant case studies files, run:
 ./setoids.sh
 ```
 
-which will first run the setoid repair tests contained within `pumpkin-pi/plugin/coq/ToSetoidTest.v`,then build the following two case studies:
+which will first run the setoid repair tests contained within `pumpkin-pi/plugin/coq/ToSetoidTest.v`, then build the following two case studies:
 - `pumpkin-pi/plugin/coq/playground/grothendieck_int_equivalence_repair_tool.v` (for the integer case study in Coq)
 - `pumpkin-pi/plugin/coq/playground/TwoListQueue/two_list_queue_equivalence_repair_tool.v` (for the queue case study in Coq)
 
